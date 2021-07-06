@@ -78,14 +78,13 @@ padding-bottom: 10px;
    text-transform: capitalize;
 }
 #showcase h2{
-    
+    margin:-30px;
     color:#f5e8c0;
     font-size:30px;
-    margin-top:50px;
-    margin-bottom: 20px;
-    padding-left: 20px;
+     padding-left: 23px;
 }
 #showcase p{
+    padding-top: 20px;
     color:#f0d487;
     font-size: 19px;
     padding-left:15px;
