@@ -1,0 +1,123 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:arial,helvetica,sans-serif;
+    font-size:16px;
+    background-color: #E6E6E6;
+    color:#101010;
+}
+.container{
+    width:85%;
+    margin:auto;
+    overflow:hidden;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#cc9c13,rgb(97, 91, 91));
+    color: white;
+    font-weight: 700;
+    
+    padding:25px 45px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+ /* header start */
+header{
+    background-color: #162f2f;
+    min-height: 60px;
+    padding-top: 30px;
+    border-bottom: 6px solid #6d5f1c;
+    background-position: fixed;
+}
+
+
+#logo{
+    float:left;
+    font-weight: bold;
+    font-size: 20px;
+}
+#logo h1{
+    color:#b7a9a9;
+    margin:0px;
+}
+header nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding-right: 5px;
+    padding-top: 12px;
+    padding-bottom: px;
+}
+nav  a{
+text-decoration: none;
+color:#b7a9a9;
+font-weight: bold;
+font-size: 20px;
+padding-bottom: 10px;
+}
+.brand{
+    color:#cc9c13;
+    padding-right:5px;
+}
+.current{
+    color:#cc9c13;
+}
+/* header end */
+/* showcase start */
+#showcase{
+    background:url(images/food17.jpg) no-repeat;
+    
+   width:100%;
+   min-height:500px;
+   background-size: cover;
+   margin:auto; 
+   text-align: center;
+   text-transform: capitalize;
+}
+#showcase h2{
+    
+    color:#f5e8c0;
+    font-size:30px;
+    margin-top:50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#showcase p{
+    color:#f0d487;
+    font-size: 19px;
+    padding-left:15px;
+   
+}
+/* showcase end */
+/* order start */
+.flexible{
+    margin-top:5.5%;
+    margin-bottom: 5%;
+}
+.flexible .container{
+    display:flex;
+    
+}
+.half-width h1{
+    padding-top: 90px;
+    font-size:67px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:rgb(95, 92, 92);
+    
+}
+.half-width p{
+    color:#a59b9b;
+    font-size:23px;
+    margin-bottom:60px;
+   
+}
+.orange{
+    color: #cc9c13;
+}
+
+/* order end */
