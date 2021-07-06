@@ -106,8 +106,8 @@ padding-bottom: 10px;
 width:50%;
 }
 .about-img{
-    padding-top:55px;
-    width:40%;
+ padding-top:55px;
+width:40%;
 height:600px;
 padding-left:80px;
 padding-right:70px;
@@ -122,13 +122,22 @@ padding-right:70px;
     font-weight: bold;
     color:rgb(95, 92, 92);
 }
-.half-width h2{
-        padding-top: 180px;
+ h2{
+        padding-top: 80px;
         
         font-size:40px;
         text-transform: capitalize;
         font-weight: bold;
         color:rgb(95, 92, 92);
+}
+
+h3{ 
+    padding:10px;
+     font-size:40px;
+     text-transform: capitalize;
+     font-weight: bold;
+     color:rgb(95, 92, 92);
+
 }
 .half-width p{
     color:#a59b9b;
@@ -136,7 +145,7 @@ padding-right:70px;
     margin-bottom:60px;
    
 }
-.half-width .about-p{
+ .half-width .about-p{
     color:black;
     font-size:23px;
     margin-bottom:100px;
@@ -155,3 +164,36 @@ padding-right:70px;
    
 }
 /* about us end */
+/* recipie start */
+#recipie{
+    text-align: center;
+    
+}
+.recipie-flex{
+    display:flex;
+    
+  
+}
+.recip-item{
+    width:28.33%;
+    margin:auto;
+    
+    background-color: white;
+    border-radius: 25px;
+    
+}
+.recip-item img{
+width:80%;
+padding: 37px;
+border-radius:25px; ;
+
+}
+.recip-item p{
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin-bottom:40px;
+}
+
+
+/* recipie end */
