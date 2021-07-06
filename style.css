@@ -4,10 +4,10 @@ body{
     font-family:arial,helvetica,sans-serif;
     font-size:16px;
     background-color: #e6e6e6;
-    color:#101010;
+    
 }
 .container{
-    width:85%;
+    width:80%;
     margin:auto;
     overflow:hidden;
 }
@@ -104,16 +104,6 @@ padding-bottom: 10px;
 .half-width{
 width:50%;
 }
-.about-img{
- padding-top:55px;
-width:40%;
-height:600px;
-padding-left:80px;
-padding-right:70px;
-
-    
-    
-}
 .half-width h1{
     padding-top: 90px;
     font-size:67px;
@@ -138,6 +128,7 @@ h3{
      color:rgb(95, 92, 92);
 
 }
+
 .half-width p{
     color:#a59b9b;
     font-size:23px;
@@ -161,6 +152,10 @@ h3{
     
     background-size: cover;
    
+}
+.about-img{
+    width:40%;
+    padding:45px 70px 0px 70px;
 }
 /* about us end */
 /* recipie start */
@@ -237,7 +232,7 @@ footer{
     text-align: center;
     min-height: 60px;
     padding: 30px;
-    border-top: 6px solid #6d5f1c;
+    border-top: 6px solid #ac962c;
     
 }
 /* footer end */
